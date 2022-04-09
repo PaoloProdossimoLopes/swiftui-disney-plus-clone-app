@@ -18,6 +18,7 @@
 		B1774EF428012031005805BA /* SearchPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EF328012031005805BA /* SearchPageView.swift */; };
 		B1774EF62801203D005805BA /* DownloadPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EF52801203D005805BA /* DownloadPageView.swift */; };
 		B1774EF828012045005805BA /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EF728012044005805BA /* ProfilePageView.swift */; };
+		B1B28E0128018E970039FCF4 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E0028018E970039FCF4 /* ColorConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B1774EF328012031005805BA /* SearchPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageView.swift; sourceTree = "<group>"; };
 		B1774EF52801203D005805BA /* DownloadPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadPageView.swift; sourceTree = "<group>"; };
 		B1774EF728012044005805BA /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
+		B1B28E0028018E970039FCF4 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		B1774EE928011979005805BA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				B1B28E0028018E970039FCF4 /* ColorConstants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				B1774EDA2801187D005805BA /* ContentView.swift in Sources */,
 				B1774EF62801203D005805BA /* DownloadPageView.swift in Sources */,
 				B1774EF028011E34005805BA /* TabBarIcon.swift in Sources */,
+				B1B28E0128018E970039FCF4 /* ColorConstants.swift in Sources */,
 				B1774ED82801187D005805BA /* DisneyPlusCloneAppApp.swift in Sources */,
 				B1774EF828012045005805BA /* ProfilePageView.swift in Sources */,
 				B1774EEE28011E13005805BA /* Page.swift in Sources */,
