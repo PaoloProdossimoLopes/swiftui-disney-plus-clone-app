@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1774ED82801187D005805BA /* DisneyPlusCloneAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774ED72801187D005805BA /* DisneyPlusCloneAppApp.swift */; };
+		B1774EDA2801187D005805BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774ED92801187D005805BA /* ContentView.swift */; };
+		B1774EDC28011880005805BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1774EDB28011880005805BA /* Assets.xcassets */; };
+		B1774EDF28011880005805BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1774EDE28011880005805BA /* Preview Assets.xcassets */; };
+		B1774EEC28011BFD005805BA /* TabViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EEB28011BFD005805BA /* TabViewRouter.swift */; };
+		B1774EEE28011E13005805BA /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EED28011E13005805BA /* Page.swift */; };
+		B1774EF028011E34005805BA /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EEF28011E34005805BA /* TabBarIcon.swift */; };
+		B1774EF228012009005805BA /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EF128012009005805BA /* HomePageView.swift */; };
+		B1774EF428012031005805BA /* SearchPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EF328012031005805BA /* SearchPageView.swift */; };
+		B1774EF62801203D005805BA /* DownloadPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EF52801203D005805BA /* DownloadPageView.swift */; };
+		B1774EF828012045005805BA /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EF728012044005805BA /* ProfilePageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1774ED42801187D005805BA /* DisneyPlusCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyPlusCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1774ED72801187D005805BA /* DisneyPlusCloneAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyPlusCloneAppApp.swift; sourceTree = "<group>"; };
+		B1774ED92801187D005805BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1774EDB28011880005805BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1774EDE28011880005805BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1774EEB28011BFD005805BA /* TabViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewRouter.swift; sourceTree = "<group>"; };
+		B1774EED28011E13005805BA /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		B1774EEF28011E34005805BA /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
+		B1774EF128012009005805BA /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		B1774EF328012031005805BA /* SearchPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageView.swift; sourceTree = "<group>"; };
+		B1774EF52801203D005805BA /* DownloadPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadPageView.swift; sourceTree = "<group>"; };
+		B1774EF728012044005805BA /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1774ED12801187D005805BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1774ECB2801187D005805BA = {
+			isa = PBXGroup;
+			children = (
+				B1774ED62801187D005805BA /* DisneyPlusCloneApp */,
+				B1774ED52801187D005805BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1774ED52801187D005805BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1774ED42801187D005805BA /* DisneyPlusCloneApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1774ED62801187D005805BA /* DisneyPlusCloneApp */ = {
+			isa = PBXGroup;
+			children = (
+				B1774EEA2801197C005805BA /* Gif */,
+				B1774EE928011979005805BA /* Utils */,
+				B1774EE828011970005805BA /* Routers */,
+				B1774EE72801196A005805BA /* Models */,
+				B1774EE628011963005805BA /* Components */,
+				B1774EE528011960005805BA /* Views */,
+				B1774ED72801187D005805BA /* DisneyPlusCloneAppApp.swift */,
+				B1774ED92801187D005805BA /* ContentView.swift */,
+				B1774EDB28011880005805BA /* Assets.xcassets */,
+				B1774EDD28011880005805BA /* Preview Content */,
+			);
+			path = DisneyPlusCloneApp;
+			sourceTree = "<group>";
+		};
+		B1774EDD28011880005805BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1774EDE28011880005805BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1774EE528011960005805BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1774EF128012009005805BA /* HomePageView.swift */,
+				B1774EF328012031005805BA /* SearchPageView.swift */,
+				B1774EF52801203D005805BA /* DownloadPageView.swift */,
+				B1774EF728012044005805BA /* ProfilePageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1774EE628011963005805BA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1774EEF28011E34005805BA /* TabBarIcon.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B1774EE72801196A005805BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1774EED28011E13005805BA /* Page.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1774EE828011970005805BA /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				B1774EEB28011BFD005805BA /* TabViewRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		B1774EE928011979005805BA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B1774EEA2801197C005805BA /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1774ED32801187D005805BA /* DisneyPlusCloneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1774EE228011880005805BA /* Build configuration list for PBXNativeTarget "DisneyPlusCloneApp" */;
+			buildPhases = (
+				B1774ED02801187D005805BA /* Sources */,
+				B1774ED12801187D005805BA /* Frameworks */,
+				B1774ED22801187D005805BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisneyPlusCloneApp;
+			productName = DisneyPlusCloneApp;
+			productReference = B1774ED42801187D005805BA /* DisneyPlusCloneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1774ECC2801187D005805BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B1774ED32801187D005805BA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = B1774ECF2801187D005805BA /* Build configuration list for PBXProject "DisneyPlusCloneApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1774ECB2801187D005805BA;
+			productRefGroup = B1774ED52801187D005805BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1774ED32801187D005805BA /* DisneyPlusCloneApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1774ED22801187D005805BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1774EDF28011880005805BA /* Preview Assets.xcassets in Resources */,
+				B1774EDC28011880005805BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1774ED02801187D005805BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1774EDA2801187D005805BA /* ContentView.swift in Sources */,
+				B1774EF62801203D005805BA /* DownloadPageView.swift in Sources */,
+				B1774EF028011E34005805BA /* TabBarIcon.swift in Sources */,
+				B1774ED82801187D005805BA /* DisneyPlusCloneAppApp.swift in Sources */,
+				B1774EF828012045005805BA /* ProfilePageView.swift in Sources */,
+				B1774EEE28011E13005805BA /* Page.swift in Sources */,
+				B1774EF428012031005805BA /* SearchPageView.swift in Sources */,
+				B1774EF228012009005805BA /* HomePageView.swift in Sources */,
+				B1774EEC28011BFD005805BA /* TabViewRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1774EE028011880005805BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1774EE128011880005805BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1774EE328011880005805BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisneyPlusCloneApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Y487CY958A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PaoloProdossimoLopes.DisneyPlusCloneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1774EE428011880005805BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisneyPlusCloneApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Y487CY958A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PaoloProdossimoLopes.DisneyPlusCloneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1774ECF2801187D005805BA /* Build configuration list for PBXProject "DisneyPlusCloneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1774EE028011880005805BA /* Debug */,
+				B1774EE128011880005805BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1774EE228011880005805BA /* Build configuration list for PBXNativeTarget "DisneyPlusCloneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1774EE328011880005805BA /* Debug */,
+				B1774EE428011880005805BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1774ECC2801187D005805BA /* Project object */;
+}
