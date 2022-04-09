@@ -25,6 +25,9 @@
 		B1B28E0A280195EF0039FCF4 /* SplashAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E09280195EF0039FCF4 /* SplashAnimationView.swift */; };
 		B1B28E0C280197890039FCF4 /* disneyPlusAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = B1B28E0B280197890039FCF4 /* disneyPlusAnimated.gif */; };
 		B1B28E0E2801987A0039FCF4 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E0D2801987A0039FCF4 /* SplashView.swift */; };
+		B1B28E1128019BA80039FCF4 /* Chanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E1028019BA80039FCF4 /* Chanel.swift */; };
+		B1B28E1328019C790039FCF4 /* SearchCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E1228019C790039FCF4 /* SearchCategory.swift */; };
+		B1B28E1528019D410039FCF4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E1428019D400039FCF4 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		B1B28E09280195EF0039FCF4 /* SplashAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAnimationView.swift; sourceTree = "<group>"; };
 		B1B28E0B280197890039FCF4 /* disneyPlusAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = disneyPlusAnimated.gif; sourceTree = "<group>"; };
 		B1B28E0D2801987A0039FCF4 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B1B28E1028019BA80039FCF4 /* Chanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chanel.swift; sourceTree = "<group>"; };
+		B1B28E1228019C790039FCF4 /* SearchCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCategory.swift; sourceTree = "<group>"; };
+		B1B28E1428019D400039FCF4 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,15 +85,13 @@
 		B1774ED62801187D005805BA /* DisneyPlusCloneApp */ = {
 			isa = PBXGroup;
 			children = (
+				B1B28E0F28019B8C0039FCF4 /* Defults */,
 				B1774EEA2801197C005805BA /* Gif */,
 				B1774EE928011979005805BA /* Utils */,
 				B1774EE828011970005805BA /* Routers */,
 				B1774EE72801196A005805BA /* Models */,
 				B1774EE628011963005805BA /* Components */,
 				B1774EE528011960005805BA /* Views */,
-				B1774ED72801187D005805BA /* DisneyPlusCloneAppApp.swift */,
-				B1774ED92801187D005805BA /* ContentView.swift */,
-				B1774EDB28011880005805BA /* Assets.xcassets */,
 				B1774EDD28011880005805BA /* Preview Content */,
 			);
 			path = DisneyPlusCloneApp;
@@ -128,6 +132,9 @@
 				B1774EED28011E13005805BA /* Page.swift */,
 				B1B28E0228018FFA0039FCF4 /* Movies.swift */,
 				B1B28E04280192660039FCF4 /* MovieSection.swift */,
+				B1B28E1028019BA80039FCF4 /* Chanel.swift */,
+				B1B28E1228019C790039FCF4 /* SearchCategory.swift */,
+				B1B28E1428019D400039FCF4 /* Profile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -154,6 +161,16 @@
 				B1B28E0B280197890039FCF4 /* disneyPlusAnimated.gif */,
 			);
 			path = Gif;
+			sourceTree = "<group>";
+		};
+		B1B28E0F28019B8C0039FCF4 /* Defults */ = {
+			isa = PBXGroup;
+			children = (
+				B1774ED72801187D005805BA /* DisneyPlusCloneAppApp.swift */,
+				B1774ED92801187D005805BA /* ContentView.swift */,
+				B1774EDB28011880005805BA /* Assets.xcassets */,
+			);
+			path = Defults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B28E1528019D410039FCF4 /* Profile.swift in Sources */,
 				B1774EDA2801187D005805BA /* ContentView.swift in Sources */,
 				B1B28E0328018FFA0039FCF4 /* Movies.swift in Sources */,
 				B1B28E05280192660039FCF4 /* MovieSection.swift in Sources */,
+				B1B28E1328019C790039FCF4 /* SearchCategory.swift in Sources */,
 				B1774EF62801203D005805BA /* DownloadPageView.swift in Sources */,
 				B1774EF028011E34005805BA /* TabBarIcon.swift in Sources */,
 				B1B28E0128018E970039FCF4 /* ColorConstants.swift in Sources */,
@@ -244,6 +263,7 @@
 				B1774EF828012045005805BA /* ProfilePageView.swift in Sources */,
 				B1774EEE28011E13005805BA /* Page.swift in Sources */,
 				B1774EF428012031005805BA /* SearchPageView.swift in Sources */,
+				B1B28E1128019BA80039FCF4 /* Chanel.swift in Sources */,
 				B1774EF228012009005805BA /* HomePageView.swift in Sources */,
 				B1774EEC28011BFD005805BA /* TabViewRouter.swift in Sources */,
 				B1B28E0E2801987A0039FCF4 /* SplashView.swift in Sources */,
