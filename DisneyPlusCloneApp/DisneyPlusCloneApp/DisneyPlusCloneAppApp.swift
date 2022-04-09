@@ -11,7 +11,7 @@ import SwiftUI
 struct DisneyPlusCloneAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(tabViewRouter: .init())
+            SplashView()
         }
     }
 }
