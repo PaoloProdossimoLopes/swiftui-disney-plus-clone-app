@@ -19,6 +19,8 @@
 		B1774EF62801203D005805BA /* DownloadPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EF52801203D005805BA /* DownloadPageView.swift */; };
 		B1774EF828012045005805BA /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774EF728012044005805BA /* ProfilePageView.swift */; };
 		B1B28E0128018E970039FCF4 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E0028018E970039FCF4 /* ColorConstants.swift */; };
+		B1B28E0328018FFA0039FCF4 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E0228018FFA0039FCF4 /* Movies.swift */; };
+		B1B28E05280192660039FCF4 /* MovieSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E04280192660039FCF4 /* MovieSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		B1774EF52801203D005805BA /* DownloadPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadPageView.swift; sourceTree = "<group>"; };
 		B1774EF728012044005805BA /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
 		B1B28E0028018E970039FCF4 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		B1B28E0228018FFA0039FCF4 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		B1B28E04280192660039FCF4 /* MovieSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				B1774EED28011E13005805BA /* Page.swift */,
+				B1B28E0228018FFA0039FCF4 /* Movies.swift */,
+				B1B28E04280192660039FCF4 /* MovieSection.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,6 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1774EDA2801187D005805BA /* ContentView.swift in Sources */,
+				B1B28E0328018FFA0039FCF4 /* Movies.swift in Sources */,
+				B1B28E05280192660039FCF4 /* MovieSection.swift in Sources */,
 				B1774EF62801203D005805BA /* DownloadPageView.swift in Sources */,
 				B1774EF028011E34005805BA /* TabBarIcon.swift in Sources */,
 				B1B28E0128018E970039FCF4 /* ColorConstants.swift in Sources */,
