@@ -31,7 +31,7 @@ struct MovieSectionView: View {
                                 .frame(width: 150)
                         })
                         .sheet(item: self.$selectedMovie) { item in
-                                //Implement
+                                GradientBackgroundView()
                         }
                     }
                 }

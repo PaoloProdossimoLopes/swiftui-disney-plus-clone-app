@@ -13,67 +13,42 @@ struct ContentView: View {
     
     var body: some View {
         GeometryReader { geo in
-            VStack() {
-                VStack {
-                    getTabPages()
-                    Spacer()
-                    getTabIcons(geo: geo)
-                }
+            VStack(spacing: -10) {
+                getTabPages()
+                getTabIcons(geo: geo)
             }
-            .background(ColorConstants.darkBluishGrayColor.shadow(radius: 2))
-            .ignoresSafeArea(.all)
-        }
+        }.edgesIgnoringSafeArea(.all)
     }
     
     private func getTabPages() -> some View {
-        var anyView: AnyView
-        
         switch tabViewRouter.currentPage {
         case .home:
-            anyView = AnyView(HomePageView())
+            return AnyView(HomePageView().frame(width: UIScreen.main.bounds.width))
         case .search:
-            anyView =  AnyView(SearchPageView())
+            return AnyView(SearchPageView())
         case .downloads:
-            anyView = AnyView(DownloadPageView())
+            return AnyView(DownloadPageView())
         case .profile:
-            anyView = AnyView(ProfilePageView())
+            return AnyView(ProfilePageView())
         }
-        
-        return anyView
     }
     
     private func getTabIcons(geo: GeometryProxy) -> some View {
-        let numberOfTabs = CGFloat(Page.allCases.count)
-        let heightForItens: CGFloat = 56
+        let width = geo.size.width / 4
+        let height = geo.size.height / 56
         
-        let width = geo.size.width / numberOfTabs
-        let height = geo.size.height / heightForItens
-        
-        let view = HStack {
-            TabBarIcon(
-                tabViewRouter: tabViewRouter, currentPage: .home,
-                height: height, width: width, systemIconName: "house", tabName: "home"
-            )
+        return HStack {
+            TabBarIcon(tabViewRouter: tabViewRouter, currentPage: .home, height: height, width: width, systemIconName: "house", tabName: "Home")
             
-            TabBarIcon(
-                tabViewRouter: tabViewRouter, currentPage: .search,
-                height: height, width: width, systemIconName: "magnifyingglass", tabName: "search"
-            )
+            TabBarIcon(tabViewRouter: tabViewRouter, currentPage: .search, height: height, width: width, systemIconName: "magnifyingglass", tabName: "Search")
             
-            TabBarIcon(
-                tabViewRouter: tabViewRouter, currentPage: .downloads,
-                height: height, width: width, systemIconName: "square.and.arrow.down.fill", tabName: "dowloads"
-            )
+            TabBarIcon(tabViewRouter: tabViewRouter, currentPage: .downloads, height: height, width: width, systemIconName: "square.and.arrow.down.fill", tabName: "Downloads")
             
-            TabBarIcon(
-                tabViewRouter: tabViewRouter, currentPage: .profile,
-                height: height, width: width, systemIconName: "person.circle", tabName: "profile"
-            )
+            TabBarIcon(tabViewRouter: tabViewRouter, currentPage: .profile, height: height, width: width, systemIconName: "person.circle", tabName: "Profile")
         }
         .frame(width: geo.size.width, height: 60)
         .padding(.bottom, 20)
-        
-        return view
+        .background(ColorConstants.darkBluishGrayColor.shadow(radius: 2))
     }
 }
 
