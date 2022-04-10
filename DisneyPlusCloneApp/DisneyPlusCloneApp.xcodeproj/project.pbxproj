@@ -31,6 +31,7 @@
 		B1B28E382802DA220039FCF4 /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E372802DA220039FCF4 /* GradientBackgroundView.swift */; };
 		B1B28E3A2802DE060039FCF4 /* LogoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E392802DE060039FCF4 /* LogoHeaderView.swift */; };
 		B1B28E3C2802E0730039FCF4 /* ChanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E3B2802E0730039FCF4 /* ChanelView.swift */; };
+		B1B28E3E2802E6CA0039FCF4 /* MovieSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E3D2802E6CA0039FCF4 /* MovieSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		B1B28E372802DA220039FCF4 /* GradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
 		B1B28E392802DE060039FCF4 /* LogoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoHeaderView.swift; sourceTree = "<group>"; };
 		B1B28E3B2802E0730039FCF4 /* ChanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChanelView.swift; sourceTree = "<group>"; };
+		B1B28E3D2802E6CA0039FCF4 /* MovieSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				B1774EEF28011E34005805BA /* TabBarIcon.swift */,
 				B1B28E392802DE060039FCF4 /* LogoHeaderView.swift */,
+				B1B28E3D2802E6CA0039FCF4 /* MovieSectionView.swift */,
 				B1B28E3B2802E0730039FCF4 /* ChanelView.swift */,
 			);
 			path = Components;
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1B28E1528019D410039FCF4 /* Profile.swift in Sources */,
+				B1B28E3E2802E6CA0039FCF4 /* MovieSectionView.swift in Sources */,
 				B1774EDA2801187D005805BA /* ContentView.swift in Sources */,
 				B1B28E0328018FFA0039FCF4 /* Movies.swift in Sources */,
 				B1B28E05280192660039FCF4 /* MovieSection.swift in Sources */,
