@@ -35,6 +35,8 @@
 		B1B28E402802EBDE0039FCF4 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E3F2802EBDE0039FCF4 /* SquareButton.swift */; };
 		B1B28E422802EE410039FCF4 /* ProfilePicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E412802EE410039FCF4 /* ProfilePicView.swift */; };
 		B1B28E442802F0960039FCF4 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E432802F0960039FCF4 /* View+Extensions.swift */; };
+		B1B28E462802F4D00039FCF4 /* CarrousselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E452802F4D00039FCF4 /* CarrousselView.swift */; };
+		B1B28E482802F6C90039FCF4 /* ScrollingHStackViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B28E472802F6C90039FCF4 /* ScrollingHStackViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		B1B28E3F2802EBDE0039FCF4 /* SquareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
 		B1B28E412802EE410039FCF4 /* ProfilePicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicView.swift; sourceTree = "<group>"; };
 		B1B28E432802F0960039FCF4 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		B1B28E452802F4D00039FCF4 /* CarrousselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrousselView.swift; sourceTree = "<group>"; };
+		B1B28E472802F6C90039FCF4 /* ScrollingHStackViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingHStackViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 				B1B28E3B2802E0730039FCF4 /* ChanelView.swift */,
 				B1B28E3F2802EBDE0039FCF4 /* SquareButton.swift */,
 				B1B28E412802EE410039FCF4 /* ProfilePicView.swift */,
+				B1B28E452802F4D00039FCF4 /* CarrousselView.swift */,
+				B1B28E472802F6C90039FCF4 /* ScrollingHStackViewModifier.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 				B1B28E3E2802E6CA0039FCF4 /* MovieSectionView.swift in Sources */,
 				B1774EDA2801187D005805BA /* ContentView.swift in Sources */,
 				B1B28E0328018FFA0039FCF4 /* Movies.swift in Sources */,
+				B1B28E482802F6C90039FCF4 /* ScrollingHStackViewModifier.swift in Sources */,
 				B1B28E402802EBDE0039FCF4 /* SquareButton.swift in Sources */,
 				B1B28E05280192660039FCF4 /* MovieSection.swift in Sources */,
 				B1B28E1328019C790039FCF4 /* SearchCategory.swift in Sources */,
@@ -291,6 +298,7 @@
 				B1B28E382802DA220039FCF4 /* GradientBackgroundView.swift in Sources */,
 				B1774EF428012031005805BA /* SearchPageView.swift in Sources */,
 				B1B28E1128019BA80039FCF4 /* Chanel.swift in Sources */,
+				B1B28E462802F4D00039FCF4 /* CarrousselView.swift in Sources */,
 				B1774EF228012009005805BA /* HomePageView.swift in Sources */,
 				B1774EEC28011BFD005805BA /* TabViewRouter.swift in Sources */,
 				B1B28E442802F0960039FCF4 /* View+Extensions.swift in Sources */,
