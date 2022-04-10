@@ -13,13 +13,15 @@ struct ContentView: View {
     
     var body: some View {
         GeometryReader { geo in
-            VStack(spacing: -10) {
+            VStack() {
                 VStack {
                     getTabPages()
                     Spacer()
                     getTabIcons(geo: geo)
                 }
             }
+            .background(ColorConstants.darkBluishGrayColor.shadow(radius: 2))
+            .ignoresSafeArea(.all)
         }
     }
     
@@ -70,7 +72,6 @@ struct ContentView: View {
         }
         .frame(width: geo.size.width, height: 60)
         .padding(.bottom, 20)
-        .background(Color.black)
         
         return view
     }

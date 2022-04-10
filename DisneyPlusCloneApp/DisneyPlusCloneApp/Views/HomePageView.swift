@@ -9,7 +9,9 @@ import SwiftUI
 
 struct HomePageView: View {
     var body: some View {
-        Text("Home Page View")
+        ZStack {
+            GradientBackgroundView()
+        }
     }
 }
 

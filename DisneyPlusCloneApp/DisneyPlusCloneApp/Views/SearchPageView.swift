@@ -9,7 +9,9 @@ import SwiftUI
 
 struct SearchPageView: View {
     var body: some View {
-        Text("Search Page View")
+        ZStack {
+            GradientBackgroundView()
+        }
     }
 }
 

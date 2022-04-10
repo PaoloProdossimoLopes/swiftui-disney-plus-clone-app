@@ -9,7 +9,9 @@ import SwiftUI
 
 struct DownloadPageView: View {
     var body: some View {
-        Text("Download Page View")
+        ZStack {
+            GradientBackgroundView()
+        }
     }
 }
 

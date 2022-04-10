@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ProfilePageView: View {
     var body: some View {
-        Text("Profile Page View")
+        ZStack {
+            GradientBackgroundView()
+        }
     }
 }
 

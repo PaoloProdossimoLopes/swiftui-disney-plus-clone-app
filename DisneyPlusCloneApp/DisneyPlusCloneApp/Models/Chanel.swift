@@ -7,7 +7,7 @@
 
 enum Chanel: String, CaseIterable {
     case disney
-    case pixer
+    case pixar
     case marvel
     case sw
     case ng
